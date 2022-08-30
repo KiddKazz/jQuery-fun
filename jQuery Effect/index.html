@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tariq Moore | Lab 4</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="wrapper">
+    <h1>Try out the different effects!</h1>
+        <form id="effects" onsubmit="return false">
+            <div>
+                <img class="picture" src="cupofcoffee.jpg" alt="cup of coffee" height="200px" width="200px">
+            </div>
+            <legend>Effect Buttons</legend>
+            <fieldset name="effectButtons">
+                <button name="effect" class="hide" type="radio" onclick="hideButton();">Hide</button>
+                <button name="effect" class="show" type="radio" onclick="showButton();">Show</button>
+                <button class="toggle" type="radio" onclick="toggleButton();">Toggle</button>
+                <button class="fadeOut" type="radio" onclick="fadeOutButton();">Fade Out</button>
+                <button class="fadeIn" type="radio" onclick="fadeInButton();">Fade In</button>
+                <button class="slideUp" type="radio" onclick="slideUpButton();">Slide Up</button>
+                <button class="slideDown" type="radio" onclick="slideDownButton();">Slide Down</button>
+                <button class="slideToggle" type="radio" onclick="slideToggleButton();">slideToggle</button>
+                <button class="fadeTo" type="button" onclick="fadeToButton();">Fade To</button>
+            </fieldset>
+            <br>    
+                <button class="apply" type="submit">Apply</button>
+                <button class="restore" type="button">Restore</button> 
+            <br>   
+        </form>  
+        <script src="js/jquery-3.6.0.js"></script>
+        <script src="js/scripts.js"></script>
+    <footer>Tariq Moore 2022 Copyright&copy;</footer>
+</body>
+</html>

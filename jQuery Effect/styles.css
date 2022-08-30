@@ -1,0 +1,27 @@
+.wrapper {
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+legend {
+    font-size: 1.7rem;
+}
+.apply {
+    font-size: 1.21rem;
+}
+.restore {
+    font-size: 1.21rem;
+}
+#lowerButtons {
+    font-size: 1.21rem;
+}
+body {
+    background-color: antiquewhite;
+    height: 90vh;
+}
+
+button {
+    font-size: large;
+}
